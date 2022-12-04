@@ -1,3 +1,5 @@
+/* GENERAL NAVIGATION */
+
 * {
   margin-top: 10px;
   margin-left: 15px;
@@ -49,6 +51,131 @@ body {
   margin-left: -170px;
 }
 
+/* BACKGROUND INTRO IMAGE ANIMATION */
+/* BACKGROUND INTRO IMAGE ANIMATION */
+/* BACKGROUND INTRO IMAGE ANIMATION */
+/* BACKGROUND INTRO IMAGE ANIMATION */
+/* BACKGROUND INTRO IMAGE ANIMATION */
+
+.fade-in-image {
+  animation: fadeIn 3s;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+#slider {
+  width: auto;
+  height: auto;
+  transform: translateX(-80%);
+  -webkit-transform: translateX(-80%);
+}
+
+.slide-in {
+  animation: slide-in 1.5s forwards;
+  -webkit-animation: slide-in 1.5s forwards;
+}
+
+.slide-out {
+  animation: slide-out 1.5s forwards;
+  -webkit-animation: slide-out 1.5s forwards;
+}
+
+@keyframes slide-in {
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes slide-in {
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
+
+@keyframes slide-out {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(-80%);
+  }
+}
+
+@-webkit-keyframes slide-out {
+  0% {
+    -webkit-transform: translateX(0%);
+  }
+  100% {
+    -webkit-transform: translateX(-80%);
+  }
+}
+
+/* HELLO INTRO DESCRIPTION */
+/* HELLO INTRO DESCRIPTION */
+/* HELLO INTRO DESCRIPTION */
+/* HELLO INTRO DESCRIPTION */
+/* HELLO INTRO DESCRIPTION */
+
+#slider2 {
+  width: auto;
+  height: auto;
+  transform: translateX(100%);
+  -webkit-transform: translateX(100%);
+}
+
+.slide-in2 {
+  animation: slide-in 1.5s forwards;
+  -webkit-animation: slide-in 1.5s forwards;
+}
+
+.slide-out2 {
+  animation: slide-out 1.5s forwards;
+  -webkit-animation: slide-out 1.5s forwards;
+}
+
+@keyframes slide-in2 {
+  100% {
+    transform: translateX(0%);
+  }
+}
+
+@-webkit-keyframes slide-in2 {
+  100% {
+    -webkit-transform: translateX(0%);
+  }
+}
+
+@keyframes slide-out2 {
+  0% {
+    transform: translateX(0%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+
+@-webkit-keyframes slide-out2 {
+  0% {
+    -webkit-transform: translateX(0%);
+  }
+  100% {
+    -webkit-transform: translateX(100%);
+  }
+}
+
+/* INTRODUCTION OF THE SECTION */
+/* INTRODUCTION OF THE SECTION */
+/* INTRODUCTION OF THE SECTION */
+/* INTRODUCTION OF THE SECTION */
+/* INTRODUCTION OF THE SECTION */
+
 .introduction {
   float: right;
   font-size: 30px;
@@ -73,25 +200,83 @@ body {
 /* SERVICE SECTION ON THE PAGE */
 /* SERVICE SECTION ON THE PAGE */
 
-.servicetitle {
-  font-size: 50px;
-
-  margin-top: 100px;
-  margin-left: 200px;
-  margin-bottom: 50px;
-}
-
 .service {
   font-size: 22px;
+  font-weight: 300;
   max-width: 820px;
 
   margin-left: 200px;
+  margin-top: 90px;
 }
+
+.spanservice {
+  font-weight: 600;
+
+  margin: -1px;
+}
+
+/* SERVICE SECTION ANIMATION ON THE PAGE */
+/* SERVICE SECTION ANIMATION ON THE PAGE */
+/* SERVICE SECTION ANIMATION ON THE PAGE */
+/* SERVICE SECTION ANIMATION ON THE PAGE */
+/* SERVICE SECTION ANIMATION ON THE PAGE */
+
+#slider3 {
+  transform: translateY(100%);
+  -webkit-transform: translateY(100%);
+}
+
+.slide-in3 {
+  animation: slide-in 1.5s forwards;
+  -webkit-animation: slide-in 1.5s forwards;
+}
+
+.slide-out3 {
+  animation: slide-out 1.5s forwards;
+  -webkit-animation: slide-out 1.5s forwards;
+}
+
+@keyframes slide-in3 {
+  100% {
+    transform: translateY(0%);
+  }
+}
+
+@-webkit-keyframes slide-in3 {
+  100% {
+    -webkit-transform: translateY(0%);
+  }
+}
+
+@keyframes slide-out3 {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(100%);
+  }
+}
+
+@-webkit-keyframes slide-out3 {
+  0% {
+    -webkit-transform: translateY(0%);
+  }
+  100% {
+    -webkit-transform: translateY(100%);
+  }
+}
+
+/* MAIN DESIGN INTRODUCTION ON THE PAGE */
+/* MAIN DESIGN INTRODUCTION ON THE PAGE */
+/* MAIN DESIGN INTRODUCTION ON THE PAGE */
+/* MAIN DESIGN INTRODUCTION ON THE PAGE */
+/* MAIN DESIGN INTRODUCTION ON THE PAGE */
 
 .design {
   text-align: center;
 
-  margin-top: 50px;
+  margin-top: 80px;
+  margin-bottom: 30px;
 }
 
 .skillset {
