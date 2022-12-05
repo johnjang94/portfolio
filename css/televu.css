@@ -1551,9 +1551,37 @@ span {
   margin-bottom: 0px;
 }
 
+.prototype {
+  text-align: center;
+  font-size: 22px;
+
+  margin-top: 50px;
+  margin-bottom: 30px;
+
+  color: #65a765;
+}
+
+.imgsize {
+  width: 900px;
+  height: 550px;
+
+  margin-top: 20px;
+  margin-left: 220px;
+}
+
 /* FINAL PRODUCT VIDEO TEASER */
 /* FINAL PRODUCT VIDEO TEASER */
 /* FINAL PRODUCT VIDEO TEASER */
+
+.finalteaser {
+  text-align: center;
+  font-size: 22px;
+
+  margin-top: 70px;
+  margin-bottom: 30px;
+
+  color: #65a765;
+}
 
 .video {
   top: 0;
