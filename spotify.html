@@ -5,44 +5,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <link href="css/spotify.css" rel="stylesheet" />
+    <script src="../My Portfolio (using HTML, CSS, & JS)/js/spotify.js"></script>
   </head>
   <body>
-    <input type="password" id="password" />
-    <script>
-      function passWord() {
-        var testV = 1;
-        var pass1 = prompt("Please Enter Your Password", " ");
-        while (testV < 3) {
-          if (!pass1) history.go(-1);
-          if (pass1.toLowerCase() == "letmein") {
-            alert("You Got it Right!");
-            window.open("protectpage.html");
-            break;
-          }
-          testV += 1;
-          var pass1 = prompt(
-            "Access Denied - Password Incorrect, Please Try Again.",
-            "Password"
-          );
-        }
-        if ((pass1.toLowerCase() != "password") & (testV == 3)) history.go(-1);
-        return " ";
-      }
-      //Add this to you script
-      function run() {
-        var password = prompt("Password Please");
-        //Change to your own Password
-        if (password != "Canada!004") {
-          document.body.innerHTML = "";
-          document.body.innerHTML =
-            "Password Failed! Reload to Renter Password";
-        } else {
-          alert("Success");
-        }
-      }
-
-      run();
-    </script>
     <img class="logo" src="images/decoration/logo-edited.jpg" alt="logo" />
     <div class="topnav">
       <a class="btn" href="index.html">Home</a>
