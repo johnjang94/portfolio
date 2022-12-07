@@ -49,6 +49,13 @@ body {
 /* CONTACT FORM INTRODUCTION */
 /* CONTACT FORM INTRODUCTION */
 
+.title {
+  font-size: 50px;
+  text-align: center;
+
+  margin-top: 50px;
+}
+
 .intro {
   font-size: 22px;
 
@@ -99,4 +106,111 @@ input[type="submit"]:hover {
   padding: 20px;
   margin-top: 50px;
   margin-left: 40px;
+}
+
+/* THE CONTACT FORM BUTTON */
+/* THE CONTACT FORM BUTTON */
+/* THE CONTACT FORM BUTTON */
+/* THE CONTACT FORM BUTTON */
+/* THE CONTACT FORM BUTTON */
+
+.submit {
+  padding: 20px;
+  color: white;
+  background-color: darkcyan;
+
+  border-radius: 10px;
+  border-color: 0px;
+
+  margin-right: 70px;
+}
+
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+/* LAST BUTTON OF THE PAGE */
+
+.home {
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: #feca6e;
+
+  padding: 2px;
+
+  margin-left: 400px;
+}
+
+.centerbtn {
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: #feca6e;
+
+  padding: 2px;
+
+  margin-left: 130px;
+}
+
+.contacts {
+  box-sizing: border-box;
+  border-radius: 15px;
+  background-color: #feca6e;
+
+  padding: 2px;
+
+  margin-left: 130px;
+}
+
+button:hover {
+  background-color: #f88379;
+
+  margin-top: -20px;
+}
+
+button:click::after {
+  background-color: #ff4040;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+}
+
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+/* THE CONCLUSION SECTION */
+
+.ending {
+  width: 1500px;
+  height: 220px;
+
+  position: absolute;
+
+  margin-left: -100px;
+  margin-top: -55px;
+  opacity: 0.8;
+  z-index: 1000px;
+}
+
+.name {
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+
+  margin-top: 130px;
+}
+
+.names {
+  position: relative;
+  text-align: center;
+  font-weight: 700;
+}
+
+.name-s {
+  position: relative;
+  text-align: center;
+  font-weight: 700;
+  color: blue;
 }
