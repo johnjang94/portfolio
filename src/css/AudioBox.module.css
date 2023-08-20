@@ -1,0 +1,23 @@
+/* ===== BACKGROUND MUSIC ====== */
+.audio_box {
+  width: fit-content;
+  background: rgb(234, 232, 232);
+  padding: 10px;
+  border-radius: 30px;
+
+  cursor: pointer;
+
+  position: fixed;
+}
+
+.audio {
+  cursor: pointer;
+}
+
+.p {
+  margin: 25px 0 -3px 18px;
+}
+
+.title {
+  padding: 5px;
+}

@@ -1,0 +1,118 @@
+/* ===== COVER DECORATION ====== */
+.greeting-audio {
+  opacity: 0;
+}
+
+.black_cover {
+  text-align: center;
+  background-color: black;
+  cursor: pointer;
+
+  height: 103vh;
+  margin: -50px;
+}
+
+/* <<<<<< COVER TITLE SLIDE >>>>>>>> */
+.cover_title {
+  text-align: center;
+  font-size: 150px;
+  animation: font-size-keyframes 1.5s;
+  color: white;
+
+  padding-top: 260px;
+}
+
+@keyframes font-size-keyframes {
+  0% {
+    font-size: 850px;
+    padding: 0;
+    margin: -100px 0 0 -300px;
+  }
+  100% {
+    font-size: 150px;
+    padding-top: 260px;
+  }
+}
+
+@media (max-width: 640px) {
+  .cover_title {
+    text-align: center;
+    font-size: 100px;
+    animation: font-size-keyframes 1.5s;
+    color: white;
+
+    padding-top: 300px;
+  }
+
+  @keyframes font-size-keyframes {
+    0% {
+      font-size: 350px;
+      padding: 0;
+      margin: -100px 0 0 -300px;
+    }
+    100% {
+      font-size: 100px;
+      padding-top: 300px;
+    }
+  }
+}
+
+.subtitle {
+  display: none;
+  font-size: 35px;
+
+  color: white;
+}
+
+/* ===== ARROW ANIMATION ====== */
+.down_arrow {
+  display: none;
+  opacity: 0;
+  position: absolute;
+
+  color: white;
+
+  width: 0;
+  height: 30px;
+
+  top: calc(100vh - 80px);
+  left: calc(50% - 14px);
+
+  border: 2px solid;
+  border-radius: 2px;
+
+  animation: jumpInfinite 1.5s infinite;
+  cursor: pointer;
+}
+
+.down_arrow:after {
+  content: " ";
+  position: absolute;
+  top: 12px;
+  left: -8px;
+  width: 16px;
+  height: 16px;
+  border-bottom: 4px solid;
+  border-right: 4px solid;
+  border-radius: 4px;
+  transform: rotateZ(45deg);
+}
+
+@keyframes jumpInfinite {
+  0% {
+    margin-top: 0;
+  }
+  50% {
+    margin-top: 20px;
+  }
+  100% {
+    margin-top: 0;
+  }
+}
+
+.click {
+  display: none;
+
+  font-size: 30px;
+  color: white;
+}
