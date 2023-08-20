@@ -12,8 +12,6 @@ In the past couple of years, I have designed 1 website, 1 web portal, and a bunc
 - This was a team-based and a real-world project
 - My colleagues and I have redesigned a few pages that are from navigation pages
 
----
-
 ### Project 2 | Redesign a website for a travel insurance company
 
 - This was a small project that I did myself
@@ -27,8 +25,6 @@ In the past couple of years, I have designed 1 website, 1 web portal, and a bunc
 
 - This project is a team-based and a real-world project that is currently under construction
 - Basically, the entire team is working on to renovate the structure of the accessibility to information such as "trending", "transactions", "history", etc
-
----
 
 ### Project 2 | Create a clone version of YouTube
 
