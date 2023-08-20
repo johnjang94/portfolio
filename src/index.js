@@ -32,7 +32,7 @@ import ArchivesCollection from "./pages_detail/frontend_project/ArchivesCollecti
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "/portfolio",
     element: <InitialLanding />,
     errorElement: <NotFound />,
   },
