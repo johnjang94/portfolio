@@ -115,7 +115,7 @@ export default function About() {
             alt="More Information"
             className="w-[90vw] xl:w-[90vw]  md:w-[100vw] mt-[-15px] xl:mt-[-50px] md:mt-[-35px] xl:mx-[40px]"
           />
-          <p className="main-heading w-[80vw] text-center xl:mx-[85px] md:mx-[60px] mx-[20px] mb-12">
+          <p className="text-5xl text-white xl:main-heading w-[80vw] text-center xl:mx-[85px] md:mx-[60px] mx-[20px] mb-12">
             MORE ABOUT ME
           </p>
           <div class="flex flex-wrap w-[80vw] mx-auto xl:flex-nowrap md:flex-nowrap">
