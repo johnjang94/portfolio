@@ -23,7 +23,9 @@ export default function Tools({ popupActive, setPopupActive }) {
         >
           &#x2715;
         </button>
-        <header className="main-heading text-center">My Tools</header>
+        <header className="text-black main-heading text-center">
+          My Tools
+        </header>
         <section>
           <div>
             <h1 className="text-4xl text-center my-8">UX Design</h1>
@@ -35,7 +37,7 @@ export default function Tools({ popupActive, setPopupActive }) {
                   alt="Figma"
                   width={250}
                   height={400}
-                  className="mx-auto rounded-[15px]"
+                  className="mx-auto rounded-xl px-1"
                 />
               </div>
               <div>
@@ -45,7 +47,7 @@ export default function Tools({ popupActive, setPopupActive }) {
                   alt="Figjam"
                   width={200}
                   height={200}
-                  className="mx-auto rounded-[15px]"
+                  className="mx-auto rounded-xl px-1"
                 />
               </div>
             </div>
@@ -55,11 +57,17 @@ export default function Tools({ popupActive, setPopupActive }) {
               Front End Development
             </h1>
             <div>
-              <h1 className="text-center sub-heading mb-5">Languages</h1>
+              <h1 className="text-black text-center sub-heading mb-5">
+                Languages
+              </h1>
               <div className="flex flex-wrap xl:flex-nowrap justify-center">
                 <div className="mx-5">
-                  <h2 className="text-center body-text my-5">Learned:</h2>
-                  <p className="text-center body-text my-5">JavaScript</p>
+                  <h2 className="text-black text-center body-text my-5">
+                    Learned:
+                  </h2>
+                  <p className="text-black text-center body-text my-5">
+                    JavaScript
+                  </p>
                   <img
                     src={require("../utils/about/dev/javascript.png")}
                     alt="JavaScript"
@@ -69,10 +77,12 @@ export default function Tools({ popupActive, setPopupActive }) {
                   />
                 </div>
                 <div className="mx-5">
-                  <h2 className="text-center body-text my-5">
+                  <h2 className="text-center body-text my-5 text-black">
                     Learning in progress:
                   </h2>
-                  <p className="text-center body-text my-5">TypeScript</p>
+                  <p className="text-black text-center body-text my-5">
+                    TypeScript
+                  </p>
                   <img
                     src={require("../utils/about/dev/typescript.png")}
                     alt="TypeScript"
@@ -85,14 +95,16 @@ export default function Tools({ popupActive, setPopupActive }) {
             </div>
             <div>
               <div>
-                <h1 className="text-center sub-heading my-5">
+                <h1 className="text-black text-center sub-heading my-5">
                   Language Framework
                 </h1>
                 <div className="mx-5">
-                  <h2 className="text-center body-text my-5">
+                  <h2 className="text-black text-center body-text my-5">
                     Learning in progress:
                   </h2>
-                  <p className="text-center body-text my-5">Next.js</p>
+                  <p className="text-black text-center body-text my-5">
+                    Next.js
+                  </p>
                   <img
                     src={require("../utils/about/dev/nextjs.jpeg")}
                     alt="Next.js"
@@ -103,12 +115,14 @@ export default function Tools({ popupActive, setPopupActive }) {
                 </div>
               </div>
               <div>
-                <h1 className="text-center sub-heading my-5">
+                <h1 className="text-black text-center sub-heading my-5">
                   Language Libraries
                 </h1>
                 <div className="flex flex-wrap xl:flex-nowrap justify-center">
                   <div className="mx-5">
-                    <h2 className="text-center body-text my-5">React</h2>
+                    <h2 className="text-black text-center body-text my-5">
+                      React
+                    </h2>
                     <img
                       src={require("../utils/about/dev/react.png")}
                       alt="React"
@@ -118,7 +132,9 @@ export default function Tools({ popupActive, setPopupActive }) {
                     />
                   </div>
                   <div className="mx-5">
-                    <h2 className="text-center body-text my-5">JQuery</h2>
+                    <h2 className="text-black text-center body-text my-5">
+                      JQuery
+                    </h2>
                     <img
                       src={require("../utils/about/dev/jquery.png")}
                       alt="JQuery"
@@ -128,7 +144,9 @@ export default function Tools({ popupActive, setPopupActive }) {
                     />
                   </div>
                   <div className="mx-5">
-                    <h2 className="text-center body-text my-5">React Query</h2>
+                    <h2 className="text-black text-center body-text my-5">
+                      React Query
+                    </h2>
                     <img
                       src={require("../utils/about/dev/reactquery.png")}
                       alt="React Query"
@@ -140,10 +158,14 @@ export default function Tools({ popupActive, setPopupActive }) {
                 </div>
               </div>
               <div>
-                <h1 className="text-center sub-heading my-5">UI Libraries</h1>
+                <h1 className="text-black text-center sub-heading my-5">
+                  UI Libraries
+                </h1>
                 <div className="flex flex-wrap xl:flex-nowrap justify-center">
                   <div className="mx-5">
-                    <h2 className="text-center body-text my-5">CSS 3</h2>
+                    <h2 className="text-black text-center body-text my-5">
+                      CSS 3
+                    </h2>
                     <img
                       src={require("../utils/about/dev/css3.png")}
                       alt="CSS3"
@@ -153,7 +175,9 @@ export default function Tools({ popupActive, setPopupActive }) {
                     />
                   </div>
                   <div className="mx-5">
-                    <h2 className="text-center body-text my-5">Tailwind CSS</h2>
+                    <h2 className="text-black text-center body-text my-5">
+                      Tailwind CSS
+                    </h2>
                     <img
                       src={require("../utils/about/dev/tailwind.png")}
                       alt="Tailwind CSS"
@@ -163,7 +187,9 @@ export default function Tools({ popupActive, setPopupActive }) {
                     />
                   </div>
                   <div className="mx-5">
-                    <h2 className="text-center body-text my-5">Shadcn UI</h2>
+                    <h2 className="text-black text-center body-text my-5">
+                      Shadcn UI
+                    </h2>
                     <img
                       src={require("../utils/about/dev/shadcn.png")}
                       alt="Shadcn UI"
@@ -173,7 +199,9 @@ export default function Tools({ popupActive, setPopupActive }) {
                     />
                   </div>
                   <div className="mx-5">
-                    <h2 className="text-center body-text my-5">Radix UI</h2>
+                    <h2 className="text-black text-center body-text my-5">
+                      Radix UI
+                    </h2>
                     <img
                       src={require("../utils/about/dev/radixui.png")}
                       alt="Radix UI"
@@ -185,9 +213,13 @@ export default function Tools({ popupActive, setPopupActive }) {
                 </div>
               </div>
               <div>
-                <h1 className="text-center sub-heading my-5">CSS Framework</h1>
+                <h1 className="text-black text-center sub-heading my-5">
+                  CSS Framework
+                </h1>
                 <div className="mx-5 mb-5">
-                  <h2 className="text-center body-text my-5">Bootstrap</h2>
+                  <h2 className="text-black text-center body-text my-5">
+                    Bootstrap
+                  </h2>
                   <img
                     src={require("../utils/about/dev/bootstrap.png")}
                     alt="Bootstrap"
@@ -198,12 +230,14 @@ export default function Tools({ popupActive, setPopupActive }) {
                 </div>
               </div>
               <div>
-                <h1 className="text-center sub-heading my-5">
+                <h1 className="text-black text-center sub-heading my-5">
                   Version Control
                 </h1>
                 <div className="flex flex-wrap xl:flex-nowrap justify-center">
                   <div>
-                    <h2 className="text-center body-text my-5">Git</h2>
+                    <h2 className="text-black text-center body-text my-5">
+                      Git
+                    </h2>
                     <img
                       src={require("../utils/about/dev/git.png")}
                       alt="git"
@@ -213,7 +247,9 @@ export default function Tools({ popupActive, setPopupActive }) {
                     />
                   </div>
                   <div>
-                    <h2 className="text-center body-text my-5">Github</h2>
+                    <h2 className="text-black text-center body-text my-5">
+                      Github
+                    </h2>
                     <img
                       src={require("../utils/about/dev/github.png")}
                       alt="Github"
@@ -225,8 +261,12 @@ export default function Tools({ popupActive, setPopupActive }) {
                 </div>
               </div>
               <div>
-                <h1 className="text-center sub-heading my-5">Deployment</h1>
-                <h2 className="text-center body-text my-5">Vercel</h2>
+                <h1 className="text-black text-center sub-heading my-5">
+                  Deployment
+                </h1>
+                <h2 className="text-black text-center body-text my-5">
+                  Vercel
+                </h2>
                 <img
                   src={require("../utils/about/dev/vercel.png")}
                   alt="Vercel"
