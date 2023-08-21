@@ -2,7 +2,7 @@
 
 In this website, I present you all my past work in UX Design and in Front-End Development.<br/>
 In the past couple of years, I have designed 1 website, 1 web portal, and a bunch of mini Front End projects.<br/><br/>
-Please note: <br/>this is my 3rd generation portfolio that combines the works from both UX Design and Front-End Development.<br/>
+Please note: <br/>this is my latest generation portfolio that combines the works from both UX Design and Front-End Development.<br/>
 
 ---
 
@@ -11,26 +11,26 @@ Please note: <br/>this is my 3rd generation portfolio that combines the works fr
 ### Project 1 | Redesigning an internal web-based communication portal for a telecommunication company
 
 - This was a team-based and a real-world project
-  
-* Design
   <br/>
-^ Objective(s): re-design the UI of the existing website to make it feasible, usable, intuitive, and interactive<br/>
-^ Mission Criteria:<br/>
+* Objective(s):<br/>
+  > re-design the UI of the existing website to make it feasible, usable, intuitive, and interactive
+  
+* Mission Criteria:<br/>
   > recreate the login entry<br/>
-  >recreate the UI of the pages that connect to the main menu<br/>
-  >recreate the structure of a page called "video" --- re-construct the architecture to make it searchable, save with custom names, etc.<br/>
-  >create the product to make it responsive across devices
+  > recreate the UI of the pages that connect to the main menu<br/>
+  > recreate the structure of a page called "video" --- re-construct the architecture to make it searchable, save with custom names, etc.<br/>
+  > create the product to make it responsive across devices
 
 ### Project 2 | Redesign a website for a travel insurance company
 
 - This was a small project that I did myself
-  
-* Design
   <br/>
-^ Objective(s): re-design the structure and the UI of the existing website to improve conveniency and to reduce the wait times<br/>
-^ Mission Criteria:<br/>
-  >recreate and simplify the navigation bar<br/>
-  >recreate the site map to accommodate the most important information to be foremost spotted among customers
+* Objective(s): <br/>
+  > re-design the structure and the UI of the existing website to improve conveniency and to reduce the wait times
+  
+* Mission Criteria:<br/>
+  > recreate and simplify the navigation bar<br/>
+  > recreate the site map to accommodate the most important information to be foremost spotted among customers
 
 ---
 
