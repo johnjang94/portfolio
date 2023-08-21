@@ -1,7 +1,8 @@
 # Welcome to my new portfolio!
 
-In this website, I present you all my past work in UX Design and in Front-End Development.
-In the past couple of years, I have designed 1 website, 1 web portal, and a bunch of mini Front End projects.
+In this website, I present you all my past work in UX Design and in Front-End Development.<br/>
+In the past couple of years, I have designed 1 website, 1 web portal, and a bunch of mini Front End projects.<br/><br/>
+Please note: this is my 3rd generation portfolio that combines the works from both UX Design and Front-End Development.<br/>
 
 ---
 
