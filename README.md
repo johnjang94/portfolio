@@ -12,9 +12,10 @@ Please note: <br/>this is my 3rd generation portfolio that combines the works fr
 
 - This was a team-based and a real-world project
   
-* Design<br/>
--- Objective(s): re-design the UI of the existing website to make it feasible, usable, intuitive, and interactive<br/>
--- Mission Criteria:<br/>
+* Design
+  <br/>
+^ Objective(s): re-design the UI of the existing website to make it feasible, usable, intuitive, and interactive<br/>
+^ Mission Criteria:<br/>
   > recreate the login entry<br/>
   >recreate the UI of the pages that connect to the main menu<br/>
   >recreate the structure of a page called "video" --- re-construct the architecture to make it searchable, save with custom names, etc.<br/>
@@ -24,9 +25,10 @@ Please note: <br/>this is my 3rd generation portfolio that combines the works fr
 
 - This was a small project that I did myself
   
-* Design<br/>
--- Objective(s): re-design the structure and the UI of the existing website to improve conveniency and to reduce the wait times<br/>
--- Mission Criteria:<br/>
+* Design
+  <br/>
+^ Objective(s): re-design the structure and the UI of the existing website to improve conveniency and to reduce the wait times<br/>
+^ Mission Criteria:<br/>
   >recreate and simplify the navigation bar<br/>
   >recreate the site map to accommodate the most important information to be foremost spotted among customers
 
