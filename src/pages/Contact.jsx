@@ -23,7 +23,7 @@ export default function Contact() {
         </div>
         <div>
           {/* the below link will be changed to my Github account */}
-          <Link to="/home">
+          <Link to="https://github.com/johnjang94">
             <FaGithubSquare className="text-6xl" />
           </Link>
         </div>
