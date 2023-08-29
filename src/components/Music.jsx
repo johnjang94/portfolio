@@ -7,8 +7,7 @@ export default function Music() {
     { title: `Fake Love EDM`, src: `../bgm/Fake_Love_EDM.mp3` },
   ];
 
-  const [play, setPlay] = useState(songs[0].src);
-  const [title, setTitle] = useState(songs[0].title);
+  const [title] = useState(songs[0].title);
 
   return (
     <div>
@@ -18,14 +17,15 @@ export default function Music() {
   );
 }
 
-{
+/**
+ * {
   /* <button onClick={nextSong}>Next song</button>
       <button onClick={prevSong}>Previous song</button> */
-}
+/*}
 
 {
   /* <audio url={songs[currentSong].path} controls autoPlay onEnded={Random} /> */
-}
+/*}
 
 // function Random() {
 //   // Get a random index between 0 and the length of the song list
@@ -97,3 +97,6 @@ export default function Music() {
 //   },
 //   { title: `'Levitating' by Dua Lipa`, path: "../bgm/Levitating.mp3" },
 // ];
+
+ * 
+ */

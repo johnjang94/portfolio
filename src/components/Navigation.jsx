@@ -8,6 +8,7 @@ import { BsBrightnessHigh } from "react-icons/bs";
 import { HiMoon } from "react-icons/hi";
 
 import AudioBox from "./AudioBox";
+// import MusicPlayer from "./MusicPlayer";
 
 export default function Navigation() {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
@@ -168,17 +169,8 @@ export default function Navigation() {
           </div>
         </div>
       )}
+      {/* <MusicPlayer /> */}
       <AudioBox />
-      {/* <section className="bg-[rgb(234,232,232)] w-fit rounded-[25px] mb-0 mx-0">
-        <audio
-          src=""
-          // onEnded={changeSong}
-          autoPlay
-        />
-        <p className="mb-[-3px] ml-[18px] mr-0 mt-[25px]">
-          title to be added here
-        </p>
-      </section> */}
     </div>
   );
 }
