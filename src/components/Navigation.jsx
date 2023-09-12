@@ -7,7 +7,7 @@ import { useDarkMode } from "../context/DarkModeProvider";
 import { BsBrightnessHigh } from "react-icons/bs";
 import { HiMoon } from "react-icons/hi";
 
-import AudioBox from "./AudioBox";
+// import AudioBox from "./AudioBox";
 // import MusicPlayer from "./MusicPlayer";
 
 export default function Navigation() {
@@ -170,7 +170,7 @@ export default function Navigation() {
         </div>
       )}
       {/* <MusicPlayer /> */}
-      <AudioBox />
+      {/* <AudioBox /> */}
     </div>
   );
 }

@@ -6,6 +6,7 @@ import { Link } from "react-router-dom";
 import styles from "../css/Frontend.module.css";
 
 export default function FrontEnd() {
+  window.moveTo(0, 0);
   return (
     <div className="bg-[var(--color-bg-dark)] -mx-8 px-8 -my-8 py-8">
       <header>

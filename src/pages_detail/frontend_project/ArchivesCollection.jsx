@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navigation from "../../components/Navigation";
 import LeafTimes from "./Archives/LeafTimes";
 import GuessNumber from "./Archives/GuessNumber";
@@ -7,6 +7,10 @@ import FrisbeeSite from "./Archives/FrisbeeSite";
 import CarrotGame from "./Archives/CarrotGame";
 
 export default function ArchivesCollection() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="bg-[var(--color-bg-dark)] -mx-8 px-8 -my-8 py-8">
       <header>

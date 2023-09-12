@@ -1,9 +1,13 @@
-import React from "react";
+import React, { useEffect } from "react";
 import Navigation from "../components/Navigation";
 import ProjectCard from "../components/ProjectCard";
 import Footer from "../components/Footer";
 
 export default function UXDesign() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
+
   return (
     <div className="bg-[var(--color-bg-dark)] -mx-8 px-8 -my-8 py-8">
       <header>
