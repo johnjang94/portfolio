@@ -35,8 +35,8 @@ export default function FrontEnd() {
             ]}
           />
           <div className="w-[307px] cursor-pointer xl:mt-[50px] mt-5 text-center mx-auto xl:float-right mb-[-100px]">
-            <Link to="/home">
-              <MoreButton content="COMING UP SOON" />
+            <Link to="https://kblock.vercel.app/">
+              <MoreButton content="Check It Out 👉" />
             </Link>
           </div>
         </div>
