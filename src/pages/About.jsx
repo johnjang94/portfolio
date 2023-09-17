@@ -121,7 +121,7 @@ export default function About() {
           <p className="text-5xl text-white xl:main-heading w-[80vw] text-center xl:mx-[85px] md:mx-[60px] mx-[20px] mb-12">
             MORE ABOUT ME
           </p>
-          <div class="flex flex-wrap w-[80vw] mx-auto xl:flex-nowrap md:flex-nowrap">
+          <div className="flex flex-wrap w-[80vw] mx-auto xl:flex-nowrap md:flex-nowrap">
             <button
               onClick={() => setPopupActive(true)}
               className="rounded-[15px] border-solid border-[1px] border-[lightgrey] mr-[30px] hover:shadow-[0px_7px_38px_10px_rgba(145,145,145,0.82)]"

@@ -8,20 +8,12 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 import InitialLanding from "./pages/InitialLanding";
 import NotFound from "./pages/NotFound";
 import Home from "./pages/Home";
-import UXDesign from "./pages/UXDesign";
-import FrontEnd from "./pages/FrontEnd";
+import DesignOverview from "./pages/ux-design/DesignOverview";
+import FrontEnd from "./pages/front-end/DeveloperOverview";
 
 // CONTENT DETAIL - UX DESIGN
-import TeleVUIntroduction from "./pages_detail/ux_project/televu/TeleVUIntroduction";
-import TeleVUResearch from "./pages_detail/ux_project/televu/TeleVUResearch";
-import TeleVUDesign from "./pages_detail/ux_project/televu/TeleVUDesign";
-import TeleVUUsability from "./pages_detail/ux_project/televu/TeleVUUsability";
-import TeleVUReflection from "./pages_detail/ux_project/televu/TeleVUReflection";
-import TuGoIntroduction from "./pages_detail/ux_project/tugo/TuGoIntroduction";
-import TuGoResearch from "./pages_detail/ux_project/tugo/TuGoResearch";
-import TuGoDesign from "./pages_detail/ux_project/tugo/TuGoDesign";
-import TuGoUsability from "./pages_detail/ux_project/tugo/TuGoUsability";
-import TuGoReflection from "./pages_detail/ux_project/tugo/TuGoReflection";
+// this is where the ux portfolio pages used to go.
+// it is not included this time because it takes time to rebuild the UX portfolio
 import Contact from "./pages/Contact";
 
 // ADDITIONAL UTILITY
@@ -53,21 +45,8 @@ const router = createBrowserRouter([
   },
   {
     path: "/uxdesign",
-    element: <UXDesign />,
+    element: <DesignOverview />,
     errorElement: <NotFound />,
-    children: [
-      { index: true, element: <UXDesign /> },
-      { path: "/uxdesign/televuintroduction", element: <TeleVUIntroduction /> },
-      { path: "/uxdesign/televuresearch", element: <TeleVUResearch /> },
-      { path: "/uxdesign/televudesign", element: <TeleVUDesign /> },
-      { path: "/uxdesign/televuusability", element: <TeleVUUsability /> },
-      { path: "/uxdesign/televureflection", element: <TeleVUReflection /> },
-      { path: "/uxdesign/tugointroduction", element: <TuGoIntroduction /> },
-      { path: "/uxdesign/tugoresearch", element: <TuGoResearch /> },
-      { path: "/uxdesign/tugodesign", element: <TuGoDesign /> },
-      { path: "/uxdesign/tugousability", element: <TuGoUsability /> },
-      { path: "/uxdesign/tugoreflection", element: <TuGoReflection /> },
-    ],
   },
   {
     path: "/frontend",

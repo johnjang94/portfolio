@@ -21,18 +21,16 @@ export default function FrisbeeSite() {
           />
           <div className="px-2">
             <p>&#60;&#60; This is a self-initiated project &#62;&#62;</p>
-            <p>
+            <ul>
               This is the very first website that I have created while learning
               HTML5 and CSS3.
               <br />
-              <ul>
-                For this project, I needed to...
-                <li>insert pictures in certain sizes and orders</li>
-                <li>create tables with different colours</li>
-                <li>link different pages</li>
-                <li>input necessary information to fill up every webpage</li>
-              </ul>
-            </p>
+              For this project, I needed to...
+              <li>insert pictures in certain sizes and orders</li>
+              <li>create tables with different colours</li>
+              <li>link different pages</li>
+              <li>input necessary information to fill up every webpage</li>
+            </ul>
             <br />
             <p>
               I was happy to learn that I could also make a simple website using

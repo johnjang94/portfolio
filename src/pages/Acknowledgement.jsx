@@ -70,20 +70,18 @@ export default function Acknowledgement() {
           any content from the Site, in whole or in part, at its sole
           discretion, at any time, without notice.
         </p>
-        <p className="px-12 pt-12">
+        <ul className="px-12 pt-12">
           Therefore, you have understood that...
-          <ul>
-            <li>
-              it is a violation of any of the above terms and conditions to
-              post, upload, publish, reproduce, transmit or otherwise distribute
-              information or other material from the Site
-            </li>
-            <li>
-              it is not granted to use the Site without the owner's written
-              permission
-            </li>
-          </ul>
-        </p>
+          <li>
+            it is a violation of any of the above terms and conditions to post,
+            upload, publish, reproduce, transmit or otherwise distribute
+            information or other material from the Site
+          </li>
+          <li>
+            it is not granted to use the Site without the owner's written
+            permission
+          </li>
+        </ul>
       </section>
       <section className="flex justify-between px-3 xl:px-[400px] md:px-5 xl:mt-[-40px] items-center">
         <button className="text-2xl text-[white] underline decoration-red-300">

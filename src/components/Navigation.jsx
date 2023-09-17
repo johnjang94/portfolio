@@ -1,7 +1,7 @@
 import React from "react";
 import { useMediaQuery } from "react-responsive";
 import { RxHamburgerMenu } from "react-icons/rx";
-import { Link, useNavigate } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 import { useDarkMode } from "../context/DarkModeProvider";
 import { BsBrightnessHigh } from "react-icons/bs";
@@ -12,11 +12,6 @@ import { HiMoon } from "react-icons/hi";
 
 export default function Navigation() {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
-  const navigate = useNavigate();
-
-  const handleClick = () => {
-    navigate("/home");
-  };
 
   const { darkMode, toggleDarkMode } = useDarkMode();
 
@@ -25,22 +20,26 @@ export default function Navigation() {
       {isTabletOrMobile ? (
         <div className="flex justify-between items-center">
           <header>
-            <button onClick={handleClick}>
-              {!darkMode && (
+            {!darkMode && (
+              <Link to="/home">
                 <img
-                  src={require("../utils/logo/logo-dark-bg.png")}
+                  src={require("../utils/logo/black-logo/black-logo.ico")}
                   alt="Logo for Bright Mode"
-                  className="w-[40px]"
+                  width={40}
+                  className="cursor-pointer"
                 />
-              )}
-              {darkMode && (
+              </Link>
+            )}
+            {darkMode && (
+              <Link to="/home">
                 <img
-                  src={require("../utils/logo/logo-white-bg.png")}
+                  src={require("../utils/logo/white-logo/white-logo.ico")}
                   alt="Logo for Bright Mode"
-                  className="w-[40px]"
+                  width={40}
+                  className="cursor-pointer"
                 />
-              )}
-            </button>
+              </Link>
+            )}
           </header>
           <div>
             <button
@@ -70,7 +69,7 @@ export default function Navigation() {
                   About
                 </Link>
               </div>
-              <style jsx>{`
+              <style jsx="true">{`
                 .absolute {
                   display: none;
                 }
@@ -136,18 +135,24 @@ export default function Navigation() {
         <div className="flex justify-between items-center">
           <header>
             {!darkMode && (
-              <img
-                src={require("../utils/logo/logo-dark-bg.png")}
-                alt="Logo for Bright Mode"
-                className="w-[40px]"
-              />
+              <Link to="/home">
+                <img
+                  src={require("../utils/logo/black-logo/black-logo.ico")}
+                  alt="Logo for Bright Mode"
+                  width={40}
+                  className="cursor-pointer"
+                />
+              </Link>
             )}
             {darkMode && (
-              <img
-                src={require("../utils/logo/logo-white-bg.png")}
-                alt="Logo for Dark Mode"
-                className="w-[40px]"
-              />
+              <Link to="/home">
+                <img
+                  src={require("../utils/logo/white-logo/white-logo.ico")}
+                  alt="Logo for Bright Mode"
+                  width={40}
+                  className="cursor-pointer"
+                />
+              </Link>
             )}
           </header>
           <div className="flex justify-center items-center">
