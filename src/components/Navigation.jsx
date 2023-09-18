@@ -136,6 +136,18 @@ export default function Navigation() {
                     margin-left: -74vw;
                   }
                 }
+
+                @media (max-width: 400px) {
+                  .absolute {
+                    display: none;
+                  }
+
+                  button:hover + .absolute,
+                  .absolute:hover {
+                    display: block;
+                    margin-left: -60vw;
+                  }
+                }
               `}</style>
             </div>
           </div>

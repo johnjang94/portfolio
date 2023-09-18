@@ -23,7 +23,7 @@ export default function DeveloperOverview() {
   const [blockPopUp, setBlockPopUp] = useState(false);
   const [youtubePopUp, setYouTubePopUp] = useState(false);
   return (
-    <div className="bg-[var(--color-bg-dark)] -mx-8 px-8 -my-8 py-8">
+    <div className="bg-[var(--color-bg-dark)] text-[var(--color-text)] -mx-8 px-8 -my-8 py-8">
       <header>
         <Navigation />
       </header>
@@ -87,8 +87,18 @@ export default function DeveloperOverview() {
               </div>
               <div>
                 Deployment:
-                <div className="border border-black rounded-full w-fit p-1 my-3">
-                  <span className="text-black">
+                <div
+                  className={
+                    "text-[var(--color-text)]"
+                      ? "border border-white rounded-full w-fit p-1 my-3"
+                      : "border border-black rounded-full w-fit p-1 my-3"
+                  }
+                >
+                  <span
+                    className={
+                      "text-[var(--color-text)]" ? "text-white" : "text-black"
+                    }
+                  >
                     <IoLogoVercel />
                   </span>
                 </div>
@@ -188,8 +198,18 @@ export default function DeveloperOverview() {
             </div>
             <div>
               Deployment:
-              <div className="border border-black rounded-full w-fit p-1 my-3">
-                <span className="text-black">
+              <div
+                className={
+                  "text-[var(--color-text)]"
+                    ? "border border-white rounded-full w-fit p-1 my-3"
+                    : "border border-black rounded-full w-fit p-1 my-3"
+                }
+              >
+                <span
+                  className={
+                    "text-[var(--color-text)]" ? "text-white" : "text-black"
+                  }
+                >
                   <BsGithub />
                 </span>
               </div>

@@ -21,7 +21,9 @@ export default function MobileSize() {
         <Navigation />
       </header>
       <section>
-        <h1 className="main-heading mt-5">UX Design</h1>
+        <h1 className="main-heading mt-5 text-center md:text-left">
+          UX Design
+        </h1>
         <div>
           <div className="py-10">
             <div className="w-fit mx-auto">

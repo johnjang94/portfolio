@@ -127,7 +127,7 @@ export default function DesktopHome() {
           </div>
         </div>
       </section>
-      <section className="py-10 mt-5">
+      <section className="py-10 mt-5 sm:px-44">
         <Contact />
       </section>
       <footer className="text-center items-center justify-center w-screen h-[25vh] bg-[url(utils/design/ending\_background.gif)] bg-no-repeat bg-cover overflow-x-hidden mb-[-50px] ml-[-30px] mr-0">

@@ -32,7 +32,7 @@ export default function DesktopSize() {
               />
             </div>
             <div className="pt-10 w-[35vw]">
-              <h2 className=" font-semibold text-2xl">
+              <h2 className="font-semibold text-2xl">
                 Worry-Free Trips, We've Got Your Back
               </h2>
               <h3>Re-design Project for Tugo Travel Insurance Company</h3>

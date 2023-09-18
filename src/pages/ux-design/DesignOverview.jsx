@@ -36,10 +36,10 @@ export default function DesignOverview() {
   }, []);
 
   return (
-    <>
+    <div className="text-[var(--color-text)]">
       {isDesktopDesign && <DesktopSize />}
       {isTabletDesign && <TabletSize />}
       {isMobileDesign && <MobileSize />}
-    </>
+    </div>
   );
 }
