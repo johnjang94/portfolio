@@ -223,7 +223,7 @@ export default function TabletHome() {
               </div>
             </div>
           </section>
-          <section className="mb-[-70px] xl:mb-5 lg:mb-5 md:mb-5 sm:mb-5 xl:mt-10 md:mt-7 mt-5">
+          <section className="mb-[-70px] mt-5">
             <Contact />
           </section>
         </div>
@@ -274,9 +274,9 @@ export default function TabletHome() {
             )}
           </section>
           <section>
-            <h1 className="main-heading text-center xl:mx-0">UX Design</h1>
+            <h1 className="main-heading text-center">UX Design</h1>
             <div>
-              <p className="body-text w-[67vw] mx-auto my-[50px] xl:w-[70vw] xl:my-[30px]">
+              <p className="body-text w-[67vw] mx-auto my-[50px]">
                 John Jang is a UX Designer who brings the idea of various web
                 applications to the reality in digital era. He brings
                 intuitiveness and simplicity to his designs, helping users to
@@ -305,7 +305,7 @@ export default function TabletHome() {
             <h1 className="main-heading text-center px-12 mt-40">
               Front End Development
             </h1>
-            <p className="body-text w-[67vw] mx-auto my-[50px] xl:w-[70vw] xl:my-[30px]">
+            <p className="body-text w-[67vw] mx-auto my-[50px]">
               John Jang is a self-taught developer in web and Front-End
               Development. He has learnt a few tools related to Front End such
               as HTML5, CSS3, JavaScript, React.js etc and has created a few
@@ -330,12 +330,12 @@ export default function TabletHome() {
               </div>
             </div>
           </section>
-          <section className="mb-[-70px] xl:mb-5 lg:mb-5 md:mb-5 sm:mb-5 xl:mt-10 md:mt-7 mt-5">
+          <section className="mb-[-70px] mt-5">
             <Contact />
           </section>
         </div>
       )}
-      <footer className="text-center items-center justify-center w-screen h-[25vh] bg-[url(utils/design/ending\_background.gif)] bg-no-repeat bg-cover overflow-x-hidden mb-[-50px] ml-[-30px] mr-0 xl:mt-[50px] md:mt-[50px] mt-[130px] pt-[30px]">
+      <footer className="text-center items-center justify-center w-screen h-[25vh] bg-[url(utils/design/ending\_background.gif)] bg-no-repeat bg-cover overflow-x-hidden mb-[-50px] ml-[-30px] mr-0">
         <div className="text-center justify-center w-[101vw]">
           <p className="text-[white] z-[1000] mx-auto my-0">John Jang</p>
           <p className="text-[white] z-[1000] m-2.5">
