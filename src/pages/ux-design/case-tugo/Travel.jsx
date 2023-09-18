@@ -17,10 +17,13 @@ export default function Travel({ setTravel }) {
       onClick={() => setTravel(false)}
     >
       <div className="bg-white w-[87vw] h-[75vh] overflow-scroll overflow-x-hidden mx-auto my-[100px] p-5 rounded-3xl">
-        <button className="absolute w-[168vw]" onClick={() => setTravel(false)}>
+        <button
+          className="relative float-right"
+          onClick={() => setTravel(false)}
+        >
           &#x2715;
         </button>
-        <div className="px-20">
+        <div className="mx-auto md:px-20">
           <h1 className="font-bold text-center text-4xl py-10">
             Re-Imagined Assurance for Trips
           </h1>
@@ -100,13 +103,13 @@ export default function Travel({ setTravel }) {
             </li>
           </ul>
         </div>
-        <div className="cursor-pointer text-right my-10 px-20">
+        <div className="cursor-pointer text-center my-10">
           <button className="inline-block text-white uppercase text-base tracking-[0.15rem] transition-all duration-[0.3s] relative overflow-hidden z-[1] px-5 py-3 rounded-[10rem] after:content after:absolute after:w-full after:h-full after:bg-[#0cf] after:z-[-2] after:rounded-[10rem] after:left-0 after:bottom-0 before:content before:absolute before:w-[0%] before:h-full before:bg-[#008fb3] before:transition-all before:duration-[0.3s] before:z-[-1] before:rounded-[10rem] before:left-0 before:bottom-0 hover:text-white hover:before:w-full">
             <Link to="https://johnjang94.github.io/tugo/">
               Check out the Project ➡️
             </Link>
           </button>
-          <p className="text-sm text-right px-2">
+          <p className="text-sm text-center px-2">
             you will be re-directed to an external website.
           </p>
         </div>

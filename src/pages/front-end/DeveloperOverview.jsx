@@ -7,6 +7,14 @@ import Blockchain from "./k-block/Blockchain";
 import KDA from "../../utils/dev/k-block.png";
 import CloneYouTube from "../../utils/dev/youtube_clone.png";
 
+import { SiNextdotjs } from "react-icons/si";
+import { BiLogoReact } from "react-icons/bi";
+import { RiJavascriptFill } from "react-icons/ri";
+import { SiTailwindcss } from "react-icons/si";
+import { IoLogoVercel } from "react-icons/io5";
+
+import { BsGithub } from "react-icons/bs";
+
 export default function DeveloperOverview() {
   useEffect(() => {
     window.scrollTo(0, 0);
@@ -20,8 +28,10 @@ export default function DeveloperOverview() {
         <Navigation />
       </header>
       <section>
-        <h1 className="main-heading mt-5">Front-End Development</h1>
-        <div className="px-32">
+        <h1 className="main-heading mt-5 text-center md:text-left">
+          Front-End Development
+        </h1>
+        <div className="mx-auto md:px-20">
           <div className="py-10">
             <div>
               <img
@@ -57,22 +67,32 @@ export default function DeveloperOverview() {
                   Block, Block Detail, etc.
                 </li>
               </ul>
-              <ul className="py-3">
+              <div className="py-3">
                 <span className="font-bold">Used Tool(s):</span>
                 <br />
-                <span className="py-3">Languages</span>
-                <li>- JavaScript</li>
-                <span className="py-3">Framework & Libraries</span>
-                <li>- React.js</li>
-                <li>- Next.js</li>
-                <li>- Tailwind CSS</li>
-                <li>- Shadcn UI</li>
-                <li>- Radix UI</li>
-                <li>- Recharts.js</li>
-              </ul>
-              <p>
-                Deployment: <span className="text-[#0078CC]">Vercel</span>
-              </p>
+                <div className="flex items-center text-3xl gap-3 py-3">
+                  <span className="text-[#45ce05]">
+                    <SiNextdotjs />
+                  </span>
+                  <span className="text-[#61dbfb]">
+                    <BiLogoReact />
+                  </span>
+                  <span className="text-[#F0DB4F]">
+                    <RiJavascriptFill />
+                  </span>
+                  <span className="text-[#0078CC]">
+                    <SiTailwindcss />
+                  </span>
+                </div>
+              </div>
+              <div>
+                Deployment:
+                <div className="border border-black rounded-full w-fit p-1 my-3">
+                  <span className="text-black">
+                    <IoLogoVercel />
+                  </span>
+                </div>
+              </div>
               <p>
                 Website:{" "}
                 <Link
@@ -93,7 +113,7 @@ export default function DeveloperOverview() {
               </p>
             </div>
           </div>
-          <div className="cursor-pointer text-right">
+          <div className="cursor-pointer md:text-right text-center">
             {!blockPopUp && (
               <button
                 onClick={() => {
@@ -109,7 +129,7 @@ export default function DeveloperOverview() {
         </div>
         {/* ===================================================================================== */}
         {/* From this point, it's all about TeleVU Suite */}
-        <div className="px-32 mt-20">
+        <div className="mx-auto md:px-20 mt-20">
           <div className="py-10">
             <img
               src={CloneYouTube}
@@ -151,18 +171,29 @@ export default function DeveloperOverview() {
                 <li>- the video-call session feature</li>
               </ul>
             </div>
-            <ul className="py-3">
+            <div className="py-3">
               <span className="font-bold">Used Tool(s):</span>
-              Languages
-              <li>- JavaScript</li>
               <br />
-              Framework & Libraries
-              <li>- React.js</li>
-              <li>- Tailwind CSS</li>
-            </ul>
-            <p>
-              Deployment: <span className="text-[#0078CC]">Github Pages</span>
-            </p>
+              <div className="flex items-center text-3xl gap-3 py-3">
+                <span className="text-[#61dbfb]">
+                  <BiLogoReact />
+                </span>
+                <span className="text-[#F0DB4F]">
+                  <RiJavascriptFill />
+                </span>
+                <span className="text-[#0078CC]">
+                  <SiTailwindcss />
+                </span>
+              </div>
+            </div>
+            <div>
+              Deployment:
+              <div className="border border-black rounded-full w-fit p-1 my-3">
+                <span className="text-black">
+                  <BsGithub />
+                </span>
+              </div>
+            </div>
             <p>
               Website:{" "}
               <Link to="" className="text-[#0078CC]">
@@ -176,7 +207,7 @@ export default function DeveloperOverview() {
               </Link>
             </p>
           </div>
-          <div className="cursor-pointer text-right">
+          <div className="cursor-pointer md:text-right text-center">
             {!youtubePopUp && (
               <button
                 onClick={() => {
@@ -191,12 +222,14 @@ export default function DeveloperOverview() {
           <div>{youtubePopUp && <TV setTube={setYouTubePopUp} />}</div>
         </div>
       </section>
-      <section className="text-center mt-36 text-[var(--color-button-background)">
-        <button className="inline-block text-white uppercase text-base tracking-[0.15rem] transition-all duration-[0.3s] relative overflow-hidden z-[1] px-5 py-3 rounded-[10rem] after:content after:absolute after:w-full after:h-full after:bg-black after:z-[-2] after:rounded-[10rem] after:left-0 after:bottom-0 before:content before:absolute before:w-[0%] before:h-full before:bg-white before:border-black before:transition-all before:duration-[0.3s] before:z-[-1] before:rounded-[10rem] before:left-0 before:bottom-0 hover:text-black hover:before:w-full">
-          <Link to="/frontend/archives">Archives</Link>
-        </button>
+      <section className="text-center py-10 text-[var(--color-button-background)">
+        {!youtubePopUp && (
+          <button className="block mx-auto z-[1] text-white uppercase text-base tracking-[0.15rem] transition-all duration-[0.3s] relative overflow-hidden px-5 py-3 rounded-[10rem] after:content after:absolute after:w-full after:h-full after:bg-black after:z-[-2] after:rounded-[10rem] after:left-0 after:bottom-0 before:content before:absolute before:w-[0%] before:h-full before:bg-white before:border-black before:transition-all before:duration-[0.3s] before:z-[-1] before:rounded-[10rem] before:left-0 before:bottom-0 hover:text-black hover:before:w-full">
+            <Link to="/frontend/archives">Archives</Link>
+          </button>
+        )}
       </section>
-      <footer className="text-center items-center justify-center w-screen h-[25vh] bg-[url(utils/design/ending\_background.gif)] bg-no-repeat bg-cover overflow-x-hidden mb-[-50px] ml-[-30px] mr-0 xl:mt-[50px] md:mt-[50px] mt-[130px] pt-[30px]">
+      <footer className="text-center items-center justify-center w-screen h-[25vh] bg-[url(utils/design/ending\_background.gif)] bg-no-repeat bg-cover overflow-x-hidden mb-[-50px] ml-[-30px] mr-0 pt-[30px]">
         <div className="text-center justify-center w-[101vw]">
           <p className="text-[white] z-[1000] mx-auto my-0">John Jang</p>
           <p className="text-[white] z-[1000] m-2.5">
