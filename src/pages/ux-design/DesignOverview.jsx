@@ -13,6 +13,8 @@ export default function DesignOverview() {
   const [tugoPopUp, setTugoPopUp] = useState(false);
   const [televuPopUp, setTelevuPopUp] = useState(false);
 
+  // const [show, setShow] = useState(false);
+
   return (
     <div className="bg-[var(--color-bg-dark)] -mx-8 px-8 -my-8 py-8">
       <header>
@@ -127,6 +129,22 @@ export default function DesignOverview() {
           <div>{televuPopUp && <Televu setTelevu={setTelevuPopUp} />}</div>
         </div>
       </section>
+      {/* <section>
+        <button onClick={() => setShow(!show)}>Click Me</button>
+
+        <div
+          style={{
+            maxHeight: show ? "200px" : "0",
+            overflow: "hidden",
+            transition: "max-height 1s",
+          }}
+        >
+          <button className="absolute w-[168vw]" onClick={() => setShow(false)}>
+            &#x2715;
+          </button>
+          <p>This is the sliding window!</p>
+        </div>
+      </section> */}
       <Footer />
     </div>
   );

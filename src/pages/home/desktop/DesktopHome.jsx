@@ -1,14 +1,26 @@
 import React from "react";
-import Navigation from "../components/Navigation";
+import Navigation from "../../../components/Navigation";
 
 import { Link } from "react-router-dom";
-import { useDarkMode } from "../context/DarkModeProvider";
+import { useDarkMode } from "../../../context/DarkModeProvider";
 
-import DesignSwiper from "../components/DesignSwiper";
-import DevSwiper from "../components/DevSwiper";
-import Contact from "./Contact";
+import Gallery from "../../../components/Gallery";
 
-export default function Home() {
+// Design Swiper
+import TeleVUHistory from "../../../utils/design/televu/history.jpg";
+import TeleVUVideo from "../../../utils/design/televu/video.jpg";
+import TeleVUDesign from "../../../utils/design/televu/design_guide.png";
+import TeleVUPrototype from "../../../utils/design/televu/prototype.jpg";
+
+// Dev Swiper
+import Football from "../../../utils/dev/football.png";
+import List from "../../../utils/dev/to-do-list.png";
+import Guess from "../../../utils/dev/guess.png";
+import NewsApp from "../../../utils/dev/news-app.png";
+
+import Contact from "../../Contact";
+
+export default function DesktopHome() {
   const { darkMode } = useDarkMode();
   return (
     <div className="bg-[var(--color-bg-dark)] -mx-8 px-8 -my-8 py-8">
@@ -19,7 +31,7 @@ export default function Home() {
         <section className="justify-center">
           <div className="flex gap-2 flex-wrap">
             <img
-              src={require("../utils/profile/profile_2D.png")}
+              src={require("../../../utils/profile/profile_2D.png")}
               alt="animated profile"
               className="h-[500px] w-[550px] mx-auto my-0 rounded-full"
             />
@@ -46,14 +58,14 @@ export default function Home() {
         </h1>
         {!darkMode && (
           <img
-            src={require("../utils/design/responsive_design.gif")}
+            src={require("../../../utils/design/responsive_design.gif")}
             alt="Responsive Design Illustration"
             className="block mx-auto my-0"
           />
         )}
         {darkMode && (
           <img
-            src={require("../utils/design/responsive-design.gif")}
+            src={require("../../../utils/design/responsive-design.gif")}
             alt="Responsive Design Illustration"
             className="block mx-auto my-0"
           />
@@ -71,7 +83,12 @@ export default function Home() {
           </p>
         </div>
         <div>
-          <DesignSwiper />
+          <Gallery
+            image1={TeleVUHistory}
+            image2={TeleVUVideo}
+            image3={TeleVUDesign}
+            image4={TeleVUPrototype}
+          />
         </div>
         <div className="text-center">
           <div className="inline-block text-white uppercase text-base tracking-[0.15rem] transition-all duration-[0.3s] relative overflow-hidden z-[1] px-5 py-3 rounded-[10rem] after:content after:absolute after:w-full after:h-full after:bg-[#0cf] after:z-[-2] after:rounded-[10rem] after:left-0 after:bottom-0 before:content before:absolute before:w-[0%] before:h-full before:bg-[#008fb3] before:transition-all before:duration-[0.3s] before:z-[-1] before:rounded-[10rem] before:left-0 before:bottom-0 hover:text-white hover:before:w-full">
@@ -95,7 +112,12 @@ export default function Home() {
           businesses, charities, etc.
         </p>
         <div>
-          <DevSwiper />
+          <Gallery
+            image1={Football}
+            image2={List}
+            image3={Guess}
+            image4={NewsApp}
+          />
         </div>
         <div className="text-center">
           <div className="inline-block text-white uppercase text-base tracking-[0.15rem] transition-all duration-[0.3s] relative overflow-hidden z-[1] px-5 py-3 rounded-[10rem] after:content after:absolute after:w-full after:h-full after:bg-[#0cf] after:z-[-2] after:rounded-[10rem] after:left-0 after:bottom-0 before:content before:absolute before:w-[0%] before:h-full before:bg-[#008fb3] before:transition-all before:duration-[0.3s] before:z-[-1] before:rounded-[10rem] before:left-0 before:bottom-0 hover:text-white hover:before:w-full">

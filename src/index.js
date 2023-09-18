@@ -7,7 +7,7 @@ import { RouterProvider, createBrowserRouter } from "react-router-dom";
 // CONTENT
 import InitialLanding from "./pages/InitialLanding";
 import NotFound from "./pages/NotFound";
-import Home from "./pages/Home";
+import Home from "./pages/home/HomeOverview";
 import DesignOverview from "./pages/ux-design/DesignOverview";
 import FrontEnd from "./pages/front-end/DeveloperOverview";
 
