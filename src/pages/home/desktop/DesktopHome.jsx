@@ -127,12 +127,12 @@ export default function DesktopHome() {
           </div>
         </div>
       </section>
-      <section className="mb-[-70px] mt-5">
+      <section className="py-10 mt-5">
         <Contact />
       </section>
       <footer className="text-center items-center justify-center w-screen h-[25vh] bg-[url(utils/design/ending\_background.gif)] bg-no-repeat bg-cover overflow-x-hidden mb-[-50px] ml-[-30px] mr-0">
         <div className="text-center justify-center w-[101vw]">
-          <p className="text-[white] z-[1000] mx-auto my-0">John Jang</p>
+          <p className="text-[white] z-[1000] mx-auto mt-5">John Jang</p>
           <p className="text-[white] z-[1000] m-2.5">
             UX Designer | Software Engineer
           </p>

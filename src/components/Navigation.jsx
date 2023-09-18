@@ -7,9 +7,6 @@ import { useDarkMode } from "../context/DarkModeProvider";
 import { BsBrightnessHigh } from "react-icons/bs";
 import { HiMoon } from "react-icons/hi";
 
-// import AudioBox from "./AudioBox";
-// import MusicPlayer from "./MusicPlayer";
-
 export default function Navigation() {
   const isTabletOrMobile = useMediaQuery({ query: "(max-width: 1224px)" });
 
@@ -67,6 +64,18 @@ export default function Navigation() {
                   className="block w-[85vw] md:w-[91vw] lg:w-[93vw] px-5 py-4 text-gray-700 hover:bg-gray-100"
                 >
                   About
+                </Link>
+                <Link
+                  to="/uxdesign"
+                  className="block w-[85vw] md:w-[91vw] lg:w-[93vw] px-5 py-4 text-gray-700 hover:bg-gray-100"
+                >
+                  Design Overview
+                </Link>
+                <Link
+                  to="/frontend"
+                  className="block w-[85vw] md:w-[91vw] lg:w-[93vw] px-5 py-4 text-gray-700 hover:bg-gray-100"
+                >
+                  Front-End Overview
                 </Link>
               </div>
               <style jsx="true">{`
@@ -162,6 +171,12 @@ export default function Navigation() {
             <button className="text-2xl p-[25px] text-[var(--color-text)] hover:text-[#4d7fc5]">
               <Link to="/about">About</Link>
             </button>
+            <button className="text-2xl p-[25px] text-[var(--color-text)] hover:text-[#4d7fc5]">
+              <Link to="/uxdesign">Design</Link>
+            </button>
+            <button className="text-2xl p-[25px] text-[var(--color-text)] hover:text-[#4d7fc5]">
+              <Link to="/frontend">Front-End</Link>
+            </button>
             <button
               onClick={toggleDarkMode}
               className="text-[35px] bg-transparent cursor-pointer border-[none] ml-5"
@@ -174,8 +189,6 @@ export default function Navigation() {
           </div>
         </div>
       )}
-      {/* <MusicPlayer /> */}
-      {/* <AudioBox /> */}
     </div>
   );
 }
