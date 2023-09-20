@@ -90,13 +90,13 @@ export default function DeveloperOverview() {
                 <div
                   className={
                     "text-[var(--color-text)]"
-                      ? "border border-white rounded-full w-fit p-1 my-3"
-                      : "border border-black rounded-full w-fit p-1 my-3"
+                      ? "border border-black rounded-full w-fit p-1 my-3"
+                      : "border border-white rounded-full w-fit p-1 my-3"
                   }
                 >
                   <span
                     className={
-                      "text-[var(--color-text)]" ? "text-white" : "text-black"
+                      "text-[var(--color-text)]" ? "text-black" : "text-white"
                     }
                   >
                     <IoLogoVercel />
@@ -167,18 +167,12 @@ export default function DeveloperOverview() {
                 of the videos they are watching.
               </p>
               <ul className="py-3">
-                <span className="font-bold">Delivered Outcome(s):</span>
+                <span className="font-bold">Features:</span>
                 <br />
-                My team and I have re-designed...
                 <li>- the navigation menu</li>
                 <li>- the profile page</li>
-                <li>
-                  - each page that is connected to the portal main navigation
-                </li>
-                <li>
-                  - an interactive message or alert for each action or each page
-                </li>
-                <li>- the video-call session feature</li>
+                <li>- home page (where you see hot trends)</li>
+                <li>- video-detail page</li>
               </ul>
             </div>
             <div className="py-3">
@@ -201,13 +195,13 @@ export default function DeveloperOverview() {
               <div
                 className={
                   "text-[var(--color-text)]"
-                    ? "border border-white rounded-full w-fit p-1 my-3"
-                    : "border border-black rounded-full w-fit p-1 my-3"
+                    ? "border border-black rounded-full w-fit p-1 my-3"
+                    : "border border-white rounded-full w-fit p-1 my-3"
                 }
               >
                 <span
                   className={
-                    "text-[var(--color-text)]" ? "text-white" : "text-black"
+                    "text-[var(--color-text)]" ? "text-black" : "text-white"
                   }
                 >
                   <BsGithub />
