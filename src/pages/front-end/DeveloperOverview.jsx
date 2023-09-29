@@ -154,7 +154,7 @@ export default function DeveloperOverview() {
               <h3>YouTube Clone Web Application (self-initiated)</h3>
               <p className="font-bold py-3">
                 Project dates:{" "}
-                <span className="text-[#0078CC]">currently in progress</span>
+                <span className="text-[#0078CC]">08.2023 ~ 09/2023</span>
               </p>
               <p>
                 <span className="font-bold">Summary:</span>
