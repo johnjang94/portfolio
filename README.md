@@ -58,7 +58,7 @@ Please note: <br/>this is my latest generation portfolio that combines the works
   Link: (https://johnjang94.github.io/uxdportfolio/)<br/><br/>
   Second Version (for UXR): johnjang94/uxrportfolio<br/>
   Link: (johnjang94.github.io/uxrportfolio/)<br/><br/>
-- Depreciated | the following website(s) was/were depreciated due to the updated website
+- Depreciated | the following website(s) was/were depreciated due to the updated website<br/>
   Third Version (for UXD + Front-End, UXR does not exist):<br/>
   johnjang94/frontenddev<br/>
   Link: (https://johnjang94.github.io/frontenddev/)
