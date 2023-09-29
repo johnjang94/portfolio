@@ -1,7 +1,8 @@
 # Welcome to my new portfolio!
 
 In this website, I present you all my past work in UX Design and in Front-End Development.<br/><br/>
-Please note: <br/>this is my latest generation portfolio that combines the works from both UX Design and Front-End Development.<br/>
+Please note: <br/>this is my latest generation portfolio that combines the works from both UX Design and Front-End Development.<br/><br/>
+My new website: [My Portfolio](https://www.johnjang.dev/)
 
 ---
 
