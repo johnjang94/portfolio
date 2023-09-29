@@ -92,7 +92,9 @@ export default function TV({ setTube }) {
         </div>
         <div className="cursor-pointer md:text-right text-center my-10">
           <button className="inline-block text-white uppercase text-base tracking-[0.15rem] transition-all duration-[0.3s] relative overflow-hidden z-[1] px-5 py-3 rounded-[10rem] after:content after:absolute after:w-full after:h-full after:bg-[#0cf] after:z-[-2] after:rounded-[10rem] after:left-0 after:bottom-0 before:content before:absolute before:w-[0%] before:h-full before:bg-[#008fb3] before:transition-all before:duration-[0.3s] before:z-[-1] before:rounded-[10rem] before:left-0 before:bottom-0 hover:text-white hover:before:w-full">
-            <Link to="">COMING SOON</Link>
+            <Link to="https://youtube-myversion.netlify.app/">
+              Check out the Project ➡️
+            </Link>
           </button>
           <p className="text-sm md:text-right text-center px-2">
             you will be re-directed to an external website.

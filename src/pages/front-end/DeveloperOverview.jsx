@@ -13,7 +13,7 @@ import { RiJavascriptFill } from "react-icons/ri";
 import { SiTailwindcss } from "react-icons/si";
 import { IoLogoVercel } from "react-icons/io5";
 
-import { BsGithub } from "react-icons/bs";
+import { BiLogoNetlify } from "react-icons/bi";
 
 export default function DeveloperOverview() {
   useEffect(() => {
@@ -89,14 +89,14 @@ export default function DeveloperOverview() {
                 Deployment:
                 <div
                   className={
-                    "text-[var(--color-text)]"
+                    "bg-[var(--color-bg-dark)"
                       ? "border border-black rounded-full w-fit p-1 my-3"
                       : "border border-white rounded-full w-fit p-1 my-3"
                   }
                 >
                   <span
                     className={
-                      "text-[var(--color-text)]" ? "text-black" : "text-white"
+                      "bg-[var(--color-bg-dark)" ? "text-black" : "text-white"
                     }
                   >
                     <IoLogoVercel />
@@ -194,30 +194,32 @@ export default function DeveloperOverview() {
               Deployment:
               <div
                 className={
-                  "text-[var(--color-text)]"
+                  "text-black"
                     ? "border border-black rounded-full w-fit p-1 my-3"
                     : "border border-white rounded-full w-fit p-1 my-3"
                 }
               >
-                <span
-                  className={
-                    "text-[var(--color-text)]" ? "text-black" : "text-white"
-                  }
-                >
-                  <BsGithub />
+                <span className={"text-black" ? "text-black" : "text-white"}>
+                  <BiLogoNetlify />
                 </span>
               </div>
             </div>
             <p>
               Website:{" "}
-              <Link to="" className="text-[#0078CC]">
-                COMING SOON
+              <Link
+                to="https://youtube-myversion.netlify.app/"
+                className="text-[#0078CC]"
+              >
+                YouTube (my clone version)
               </Link>
             </p>
             <p>
               Github:{" "}
-              <Link to="" className="text-[#0078CC]">
-                COMING SOON
+              <Link
+                to="https://github.com/johnjang94/cloneYouTube"
+                className="text-[#0078CC]"
+              >
+                YouTube Clone full code
               </Link>
             </p>
           </div>
