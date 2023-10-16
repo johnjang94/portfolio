@@ -132,7 +132,7 @@ export default function TabletSize() {
                 </ul>
               </div>
             </div>
-            <div className="cursor-pointer text-center">
+            <div className="cursor-pointer text-center pb-5">
               {!televuPopUp && (
                 <button
                   onClick={() => {
@@ -241,7 +241,7 @@ export default function TabletSize() {
                 <ProjectCard image={TeleVUCover} alt="TeleVU Suite" />
               </div>
             </div>
-            <div className="cursor-pointer text-right">
+            <div className="cursor-pointer text-right pb-5">
               {!televuPopUp && (
                 <button
                   onClick={() => {

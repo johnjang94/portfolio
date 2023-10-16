@@ -112,7 +112,7 @@ export default function DesktopSize() {
               <ProjectCard image={TeleVUCover} alt="TeleVU Suite" />
             </div>
           </div>
-          <div className="cursor-pointer text-right">
+          <div className="cursor-pointer text-right pb-5">
             {!televuPopUp && (
               <button
                 onClick={() => {

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import DesktopHome from "./desktop/DesktopHome";
-import TabletHome from "./tablet/TabletHome";
-import MobileHome from "./mobile/MobileHome";
+import DesktopHome from "./desktop";
+import TabletHome from "./tablet";
+import MobileHome from "./mobile";
 
 export default function HomeOverview() {
   const [isDesktopHome, setIsDesktopHome] = useState(true);

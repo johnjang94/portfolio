@@ -4,7 +4,9 @@ module.exports = {
   theme: {
     extend: {
       animation: {
-        "slide-in": "slide-in 1.5s ease-in",
+        "slide-from-left": "slide-from-left 1.5s ease-in-out",
+        "slide-from-right": "slide-from-right 1.5s ease-in",
+        "slide-up": "slide-from-bottom 1.5s ease-in-out",
         "font-changes": "font-changes 1.5s ease-in",
       },
       animationDelay: {
@@ -15,9 +17,17 @@ module.exports = {
         2500: "2500ms",
       },
       keyframes: {
-        "slide-in": {
+        "slide-from-left": {
+          from: { opacity: 0, transform: "translateX(-300px)" },
+          to: { opacity: 1, transform: "translateX(0)" },
+        },
+        "slide-from-right": {
           from: { opacity: 0, transform: "translateX(300px)" },
           to: { opacity: 1, transform: "translateX(0)" },
+        },
+        "slide-from-bottom": {
+          from: { opacity: 0, transform: "translateY(300px)" },
+          to: { opacity: 1, transform: "translateY(0)" },
         },
         "font-changes": {
           from: {

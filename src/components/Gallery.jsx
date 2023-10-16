@@ -50,13 +50,6 @@ export default function Slider(props) {
           className="text-center w-[70vw] h-[35vh] mx-auto my-5 md:text-center md:w-[70vw] md:h-[60vh] md:mx-auto md:my-5 lg:text-center lg:w-[70vw] lg:h-[65vh] lg:mx-auto lg:my-[50px] xl:text-center xl:w-[70vw] xl:h-[80vh] xl:mx-auto xl:my-[50px] rounded-xl"
         />
       </SwiperSlide>
-      <SwiperSlide>
-        <img
-          src={require("../utils/design/tugo/contact.jpg")}
-          alt="Example 5"
-          className="text-center w-[70vw] h-[35vh] mx-auto my-5 md:text-center md:w-[70vw] md:h-[60vh] md:mx-auto md:my-5 lg:text-center lg:w-[70vw] lg:h-[65vh] lg:mx-auto lg:my-[50px] xl:text-center xl:w-[70vw] xl:h-[80vh] xl:mx-auto xl:my-[50px] rounded-xl"
-        />
-      </SwiperSlide>
     </Swiper>
   );
 }

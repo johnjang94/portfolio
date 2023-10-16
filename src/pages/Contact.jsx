@@ -8,11 +8,9 @@ export default function Contact() {
       <h2 className="mb-4 text-3xl ">Contact</h2>
       <div className="flex flex-1 flex-wrap justify-between items-center">
         <div>
-          <div className="flex flex-1 flex-wrap">
+          <div className="md:flex md:gap-2 flex-wrap">
             <p>My email address:</p>
-            <p className="text-[#0078CC] py-1 md:py-0 md:pl-3">
-              jscolbe9675@gmail.com
-            </p>
+            <p className="text-[#0078CC] py-1 md:py-0">jscolbe9675@gmail.com</p>
           </div>
         </div>
         <div>

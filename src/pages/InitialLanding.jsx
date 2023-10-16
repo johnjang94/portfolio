@@ -67,7 +67,6 @@ export default function InitialLanding() {
     <>
       <Greeting />
       <div className={styles.black_cover} onClick={Click}>
-        {/* I will add audio clip later */}
         <h1 className={styles.cover_title}>Welcome</h1>
         <h3 className={styles.subtitle}>to John Jang's Portfolio</h3>
         <div className={styles.down_arrow}></div>

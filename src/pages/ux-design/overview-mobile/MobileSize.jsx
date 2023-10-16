@@ -113,7 +113,7 @@ export default function MobileSize() {
               </ul>
             </div>
           </div>
-          <div className="cursor-pointer text-center">
+          <div className="cursor-pointer text-center pb-5">
             {!televuPopUp && (
               <button
                 onClick={() => {
