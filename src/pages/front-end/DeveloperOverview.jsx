@@ -36,7 +36,7 @@ export default function DeveloperOverview() {
   }, []);
 
   return (
-    <div className="text-[var(--color-text)]">
+    <div className="text-[var(--color-text)] -my-10 -mx-10">
       {isDesktopDesign && <DesktopSize />}
       {isTabletDesign && <TabletSize />}
       {isMobileDesign && <MobileSize />}

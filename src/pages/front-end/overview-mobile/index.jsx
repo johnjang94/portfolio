@@ -28,7 +28,7 @@ export default function MobileSize() {
       <header>
         <Navigation />
       </header>
-      <section>
+      <section className="px-10">
         <h1 className="main-heading mt-5 text-center md:text-left">
           Front-End Development
         </h1>

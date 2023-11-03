@@ -36,7 +36,7 @@ export default function HomeOverview() {
   }, []);
 
   return (
-    <div className="text-[var(--color-text)]">
+    <div className="text-[var(--color-text)] -my-10 -mx-10">
       {isDesktopHome && <DesktopHome />}
       {isTabletHome && <TabletHome />}
       {isMobileHome && <MobileHome />}

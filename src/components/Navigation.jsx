@@ -13,7 +13,7 @@ export default function Navigation() {
   const { darkMode, toggleDarkMode } = useDarkMode();
 
   return (
-    <div>
+    <div className="px-10 pt-5">
       {isTabletOrMobile ? (
         <div className="flex justify-between items-center">
           <header>

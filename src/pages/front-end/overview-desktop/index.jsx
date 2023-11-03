@@ -28,7 +28,7 @@ export default function DesktopSize() {
       <header>
         <Navigation />
       </header>
-      <section>
+      <section className="px-10">
         <h1 className="main-heading mt-5 text-left">Front-End Development</h1>
         <div className="px-32">
           <div className="flex justify-between py-10">

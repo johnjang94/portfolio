@@ -40,14 +40,14 @@ export default function DesktopHome() {
       <header>
         <Navigation />
       </header>
-      <section className="flex gap-40 py-10 pl-96 justify-center">
+      <section className="flex gap-40 pt-20 pb-10 pl-96 justify-center">
         <img
           src={require("../../../utils/profile/profile-v2.jpeg")}
           alt="animated profile"
           width={250}
           className="h-80 rounded-3xl animate-slide-from-left"
         />
-        <p className="text-left text-2xl animation-delay-500 animate-slide-from-right pt-10">
+        <p className="text-left text-2xl animation-delay-500 animate-slide-from-right pt-10 pr-20">
           Hello,
           <br />
           My name is John Jang.

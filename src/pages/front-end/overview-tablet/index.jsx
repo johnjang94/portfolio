@@ -47,7 +47,7 @@ export default function TabletSize() {
         <Navigation />
       </header>
       {isPortrait ? (
-        <section>
+        <section className="px-10">
           <h1 className="main-heading mt-5">Front-End Development</h1>
           <div>
             <div className="py-10">
