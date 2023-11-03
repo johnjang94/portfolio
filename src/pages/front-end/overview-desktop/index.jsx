@@ -24,12 +24,14 @@ export default function DesktopSize() {
   const [blockPopUp, setBlockPopUp] = useState(false);
   const [youtubePopUp, setYouTubePopUp] = useState(false);
   return (
-    <div className="bg-[var(--color-bg-dark)]">
+    <div>
       <header>
         <Navigation />
       </header>
-      <section className="px-10">
-        <h1 className="main-heading mt-5 text-left">Front-End Development</h1>
+      <section>
+        <h1 className="main-heading pt-5 px-10 text-left">
+          Front-End Development
+        </h1>
         <div className="px-32">
           <div className="flex justify-between py-10">
             <div className="p-3 rounded-lg bg-[#DFEFF6] h-fit mt-10">

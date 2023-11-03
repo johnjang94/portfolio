@@ -36,11 +36,11 @@ export default function DesktopHome() {
 
   const { darkMode } = useDarkMode();
   return (
-    <div className="bg-[var(--color-bg-dark)]">
+    <div>
       <header>
         <Navigation />
       </header>
-      <section className="flex gap-40 pt-20 pb-10 pl-96 justify-center">
+      <section className="flex gap-40 pl-96 justify-center">
         <img
           src={require("../../../utils/profile/profile-v2.jpeg")}
           alt="animated profile"

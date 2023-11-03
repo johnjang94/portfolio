@@ -47,7 +47,7 @@ export default function TabletHome() {
       {isPortrait ? (
         <div>
           <section>
-            <div className="py-10">
+            <div>
               <img
                 src={require("../../../utils/profile/profile-v2.jpeg")}
                 alt="animated profile"

@@ -16,12 +16,12 @@ export default function MobileSize() {
   const [tugoPopUp, setTugoPopUp] = useState(false);
   const [televuPopUp, setTelevuPopUp] = useState(false);
   return (
-    <div className="bg-[var(--color-bg-dark)] -mx-8 px-8 -my-8 py-8">
+    <div>
       <header>
         <Navigation />
       </header>
       <section>
-        <h1 className="main-heading mt-5 text-center md:text-left">
+        <h1 className="main-heading pt-5 px-10 text-center md:text-left">
           UX Design
         </h1>
         <div>

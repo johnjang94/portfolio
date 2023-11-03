@@ -34,13 +34,13 @@ export default function TabletSize() {
   }, []);
 
   return (
-    <div className="bg-[var(--color-bg-dark)] -mx-8 px-8 -my-8 py-8">
+    <div>
       <header>
         <Navigation />
       </header>
       {isPortrait ? (
         <section>
-          <h1 className="main-heading mt-5">UX Design</h1>
+          <h1 className="main-heading pt-5 px-10">UX Design</h1>
           <div>
             <div className="py-10">
               <div className="w-fit mx-auto">
