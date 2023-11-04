@@ -7,13 +7,18 @@ import Footer from "../../../components/Footer";
 
 import KDA from "../../../utils/dev/kblock.png";
 import YouTubeClone from "../../../utils/dev/youtube_clone.png";
+import Ruminate from "../../../utils/dev/ruminate.png";
 
 import { SiNextdotjs } from "react-icons/si";
 import { BiLogoReact } from "react-icons/bi";
 import { RiJavascriptFill } from "react-icons/ri";
+import { BiLogoTypescript } from "react-icons/bi";
+import { SiVite } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { IoLogoVercel } from "react-icons/io5";
 import { BiLogoNetlify } from "react-icons/bi";
+import { BiLogoFirebase } from "react-icons/bi";
+
 import { Link } from "react-router-dom";
 
 export default function MobileSize() {
@@ -33,6 +38,102 @@ export default function MobileSize() {
           Front-End Development
         </h1>
         <div>
+          <div className="py-10">
+            <div className="w-fit mx-auto">
+              <ProjectCard image={Ruminate} alt="Ruminate Web Application" />
+            </div>
+            <div className="pt-10 w-[80vw] mx-auto">
+              <h2 className=" font-semibold text-2xl">
+                Bringing Digital In Lowering Poverty
+              </h2>
+              <h3>Ruminate Web Application</h3>
+              <p className="font-bold py-3">
+                Project dates:{" "}
+                <span className="text-[#0078CC]">10.2023 ~ Present</span>
+              </p>
+              <p>
+                <span className="font-bold">Summary:</span>
+                <br />I am building a web application with a group of Front-End
+                and Back-End Developers while collaborating with a group of
+                UX/UI designers, and a group of Product Strategy Team. Ruminate
+                is a non-profit organization operating in the US that seeks to
+                resolve poverty and provide the access to good quality of food
+                to as many people as possible. The primary customers for this
+                group are usually small business owners who share the similar
+                value in helping the society.
+              </p>
+              <ul className="py-3">
+                <span className="font-bold">Feature(s):</span>
+                <br />
+                <li>
+                  - Registration forms to create new account (for food producers
+                  and food evaluators)
+                </li>
+                <li>
+                  - Administrator Dashboard to facilitate and maintain
+                  activities between the producers and evaluators
+                </li>
+                <li>- Data maintenance using firebase</li>
+              </ul>
+            </div>
+            <p className="pt-3 pl-5 font-bold">Used Tool(s):</p>
+            <br />
+            <div className="flex items-center text-3xl gap-3 px-5">
+              <span className="text-[#61dbfb]">
+                <BiLogoReact />
+              </span>
+              <span className="text-[#0078CC]">
+                <BiLogoTypescript />
+              </span>
+              <span className="text-[#c2cc00]">
+                <SiVite />
+              </span>
+              <span className="text-[#0078CC]">
+                <SiTailwindcss />
+              </span>
+              <span className="text-[#0078CC]">
+                <BiLogoFirebase />
+              </span>
+            </div>
+            <div className="px-5 pt-3">
+              <p>Deployment:</p>
+              <div className="py-2 text-2xl">
+                <BiLogoNetlify />
+              </div>
+            </div>
+            <div className="w-full pb-5 px-5">
+              <p className="inline-block text-left">
+                Website:{" "}
+                <Link to="" className="text-[#0078CC]">
+                  Ruminate (currently under construction)
+                </Link>
+              </p>
+              <p className="inline-block text-left">
+                Github:{" "}
+                <Link
+                  to="https://github.com/johnjang94/project_ruminate/tree/main"
+                  className="text-[#0078CC]"
+                >
+                  Ruminate Github
+                </Link>
+              </p>
+            </div>
+            <div className="cursor-pointer text-center">
+              {!blockPopUp && (
+                <button
+                  onClick={() => {
+                    setBlockPopUp(true);
+                  }}
+                  className="inline-block text-white uppercase text-base tracking-[0.15rem] transition-all duration-[0.3s] relative overflow-hidden z-[1] px-5 py-3 rounded-[10rem] after:content after:absolute after:w-full after:h-full after:bg-[#0cf] after:z-[-2] after:rounded-[10rem] after:left-0 after:bottom-0 before:content before:absolute before:w-[0%] before:h-full before:bg-[#008fb3] before:transition-all before:duration-[0.3s] before:z-[-1] before:rounded-[10rem] before:left-0 before:bottom-0 hover:text-white hover:before:w-full"
+                >
+                  Read More 📖
+                </button>
+              )}
+            </div>
+            <div>{blockPopUp && <Blockchain setBlock={setBlockPopUp} />}</div>
+          </div>
+          {/* ===================================================================================== */}
+          {/* From this point, it's all about Kadena Blockchain */}
           <div className="py-10">
             <div className="w-fit mx-auto">
               <ProjectCard image={KDA} alt="Kadena Blockchain Web Explorer" />
@@ -81,22 +182,10 @@ export default function MobileSize() {
                   <SiTailwindcss />
                 </span>
               </div>
-              <div>
-                Deployment:
-                <div
-                  className={
-                    "bg-[var(--color-bg-dark)"
-                      ? "border border-black rounded-full w-fit p-1 my-3"
-                      : "border border-white rounded-full w-fit p-1 my-3"
-                  }
-                >
-                  <span
-                    className={
-                      "bg-[var(--color-bg-dark)" ? "text-black" : "text-white"
-                    }
-                  >
-                    <IoLogoVercel />
-                  </span>
+              <div className="pt-3">
+                <p>Deployment:</p>
+                <div className="py-2 text-2xl">
+                  <IoLogoVercel />
                 </div>
               </div>
             </div>
@@ -138,7 +227,7 @@ export default function MobileSize() {
         {/* ===================================================================================== */}
         {/* From this point, it's all about Youtube Clone */}
         <div>
-          <div className="py-10">
+          <div className="pt-10">
             <div className="mx-auto w-fit">
               <ProjectCard
                 image={YouTubeClone}
@@ -173,34 +262,26 @@ export default function MobileSize() {
                 <li>- video-detail page</li>
               </ul>
             </div>
-            <div className="pt-3 pl-5">
-              <span className="font-bold">Used Tool(s):</span>
-              <br />
-              <div className="flex items-center text-3xl gap-3">
-                <span className="text-[#61dbfb]">
-                  <BiLogoReact />
-                </span>
-                <span className="text-[#F0DB4F]">
-                  <RiJavascriptFill />
-                </span>
-                <span className="text-[#0078CC]">
-                  <SiTailwindcss />
-                </span>
-              </div>
+          </div>
+          <div className="pt-5 pl-5">
+            <span className="font-bold">Used Tool(s):</span>
+            <br />
+            <div className="flex items-center text-3xl gap-3">
+              <span className="text-[#61dbfb]">
+                <BiLogoReact />
+              </span>
+              <span className="text-[#F0DB4F]">
+                <RiJavascriptFill />
+              </span>
+              <span className="text-[#0078CC]">
+                <SiTailwindcss />
+              </span>
             </div>
           </div>
-          <div className="pl-5">
-            Deployment:
-            <div
-              className={
-                "text-black"
-                  ? "border border-black rounded-full w-fit p-1 my-3"
-                  : "border border-white rounded-full w-fit p-1 my-3"
-              }
-            >
-              <span className={"text-black" ? "text-black" : "text-white"}>
-                <BiLogoNetlify />
-              </span>
+          <div className="px-5 pt-5">
+            <p>Deployment:</p>
+            <div className="text-2xl">
+              <BiLogoNetlify />
             </div>
           </div>
           <div className="w-full text-center">
