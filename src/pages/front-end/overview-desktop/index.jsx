@@ -4,13 +4,17 @@ import Blockchain from "../k-block/Blockchain";
 
 import KDA from "../../../utils/dev/kblock.png";
 import YouTubeClone from "../../../utils/dev/youtube_clone.png";
+import Ruminate from "../../../utils/dev/ruminate.png";
 
 import { SiNextdotjs } from "react-icons/si";
 import { BiLogoReact } from "react-icons/bi";
 import { RiJavascriptFill } from "react-icons/ri";
+import { BiLogoTypescript } from "react-icons/bi";
+import { SiVite } from "react-icons/si";
 import { SiTailwindcss } from "react-icons/si";
 import { IoLogoVercel } from "react-icons/io5";
 import { BiLogoNetlify } from "react-icons/bi";
+import { BiLogoFirebase } from "react-icons/bi";
 
 import { Link } from "react-router-dom";
 import TV from "../youtube/TV";
@@ -23,6 +27,7 @@ export default function DesktopSize() {
 
   const [blockPopUp, setBlockPopUp] = useState(false);
   const [youtubePopUp, setYouTubePopUp] = useState(false);
+
   return (
     <div>
       <header>
@@ -32,6 +37,106 @@ export default function DesktopSize() {
         <h1 className="main-heading pt-5 px-10 text-left">
           Front-End Development
         </h1>
+        <div className="px-32">
+          <div className="flex justify-between py-10">
+            <div className="p-3 rounded-lg bg-[#DFEFF6] h-fit mt-10">
+              <img src={Ruminate} alt="Ruminate" width={550} />
+            </div>
+            <div>
+              <div className="pt-10 w-[35vw]">
+                <h2 className="font-semibold text-2xl">
+                  Bringing Digital In Lowering Poverty
+                </h2>
+                <h3>Ruminate Web Application</h3>
+                <p className="font-bold py-3">
+                  Project dates:{" "}
+                  <span className="text-[#0078CC]">10.2023 ~ Present</span>
+                </p>
+                <p>
+                  <span className="font-bold">Summary:</span>
+                  <br />I am building a web application with a group of
+                  Front-End and Back-End Developers while collaborating with a
+                  group of UX/UI designers, and a group of Product Strategy
+                  Team. Ruminate is a non-profit organization operating in the
+                  US that seeks to resolve poverty and provide the access to
+                  good quality of food to as many people as possible. The
+                  primary customers for this group are usually small business
+                  owners who share the similar value in helping the society.
+                </p>
+                <ul className="py-3">
+                  <span className="font-bold">Feature(s):</span>
+                  <br />
+                  <li>
+                    - Registration forms to create new account (for food
+                    producers and food evaluators)
+                  </li>
+                  <li>
+                    - Administrator Dashboard to facilitate and maintain
+                    activities between the producers and evaluators
+                  </li>
+                  <li>- Data maintenance using firebase</li>
+                </ul>
+              </div>
+              <div className="py-3">
+                <span className="font-bold">Used Tool(s):</span>
+                <br />
+                <div className="flex items-center text-3xl gap-3 py-3">
+                  <span className="text-[#61dbfb]">
+                    <BiLogoReact />
+                  </span>
+                  <span className="text-[#0078CC]">
+                    <BiLogoTypescript />
+                  </span>
+                  <span className="text-[#c2cc00]">
+                    <SiVite />
+                  </span>
+                  <span className="text-[#0078CC]">
+                    <SiTailwindcss />
+                  </span>
+                  <span className="text-[#0078CC]">
+                    <BiLogoFirebase />
+                  </span>
+                </div>
+                <div>
+                  <p>Deployment:</p>
+                  <div className="py-2 text-2xl">
+                    <BiLogoNetlify />
+                  </div>
+                </div>
+                <p>
+                  Website:{" "}
+                  <Link to="" className="text-[#0078CC]">
+                    Ruminate (currently under construction)
+                  </Link>
+                </p>
+                <p>
+                  Github:{" "}
+                  <Link
+                    to="https://github.com/johnjang94/project_ruminate/tree/main"
+                    className="text-[#0078CC]"
+                  >
+                    Ruminate Github
+                  </Link>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="cursor-pointer text-right">
+            {!youtubePopUp && (
+              <button
+                onClick={() => {
+                  setYouTubePopUp(true);
+                }}
+                className="inline-block text-white uppercase text-base tracking-[0.15rem] transition-all duration-[0.3s] relative overflow-hidden z-[1] px-5 py-3 rounded-[10rem] after:content after:absolute after:w-full after:h-full after:bg-[#0cf] after:z-[-2] after:rounded-[10rem] after:left-0 after:bottom-0 before:content before:absolute before:w-[0%] before:h-full before:bg-[#008fb3] before:transition-all before:duration-[0.3s] before:z-[-1] before:rounded-[10rem] before:left-0 before:bottom-0 hover:text-white hover:before:w-full"
+              >
+                COMING UP SOON
+              </button>
+            )}
+            <div>{youtubePopUp && <TV setTube={setYouTubePopUp} />}</div>
+          </div>
+        </div>
+        {/* ===================================================================================== */}
+        {/* From this point, it's all about Kadena Blockchain */}
         <div className="px-32">
           <div className="flex justify-between py-10">
             <div className="p-3 rounded-lg bg-[#DFEFF6] h-fit mt-10">
@@ -85,20 +190,8 @@ export default function DesktopSize() {
               </div>
               <div>
                 Deployment:
-                <div
-                  className={
-                    "bg-[var(--color-bg-dark)"
-                      ? "border border-black rounded-full w-fit p-1 my-3"
-                      : "border border-white rounded-full w-fit p-1 my-3"
-                  }
-                >
-                  <span
-                    className={
-                      "bg-[var(--color-bg-dark)" ? "text-black" : "text-white"
-                    }
-                  >
-                    <IoLogoVercel />
-                  </span>
+                <div className="py-2 text-2xl">
+                  <IoLogoVercel />
                 </div>
               </div>
               <p>
@@ -187,18 +280,8 @@ export default function DesktopSize() {
                 </div>
                 <div>
                   Deployment:
-                  <div
-                    className={
-                      "text-black"
-                        ? "border border-black rounded-full w-fit p-1 my-3"
-                        : "border border-white rounded-full w-fit p-1 my-3"
-                    }
-                  >
-                    <span
-                      className={"text-black" ? "text-black" : "text-white"}
-                    >
-                      <BiLogoNetlify />
-                    </span>
+                  <div className="py-2 text-2xl">
+                    <BiLogoNetlify />
                   </div>
                 </div>
                 <p>
