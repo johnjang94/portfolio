@@ -59,7 +59,7 @@ export default function InitialLanding() {
     cover.style.opacity = 0;
 
     setTimeout(() => {
-      navigate("/warning");
+      navigate("/home");
     }, 1500);
   };
 
